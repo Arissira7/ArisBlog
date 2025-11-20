@@ -19,6 +19,12 @@ body
   background: color-background
   font: font-size font-sans
   -webkit-text-size-adjust: 100%
+  display: flex
+  flex-direction: column
+
+#container
+  display: flex
+  flex-direction: column
 
 .outer
   clearfix()
@@ -53,6 +59,8 @@ body
   transition: 0.2s ease-out
   z-index: 1
   background: color-background
+  display: flex
+  flex-direction: column
   .mobile-nav-on &
     left: mobile-nav-width
 
