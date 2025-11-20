@@ -103,6 +103,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+
+# Disable archive generator to prevent /archives page generation
+hexo_generator_archive: false
 theme: landscape
 
 # Deployment
