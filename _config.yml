@@ -103,10 +103,6 @@ ignore:
 # Disable archive generator to prevent /archives page generation
 hexo_generator_archive: false
 
-# Disable pagination on home
-index_generator:
-  path: ''
-  per_page: 0
 theme: landscape
 
 # Deployment
