@@ -68,6 +68,10 @@ if sidebar and sidebar isnt bottom
   #main
     @media mq-normal
       column(main-column)
+else
+  #main
+    @media mq-normal
+      column(_main-column)
 
 if sidebar is left
   @media mq-normal

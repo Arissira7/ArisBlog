@@ -145,7 +145,7 @@ body {
   flex-direction: column;
 }
 .outer {
-  max-width: 920px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -160,8 +160,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.77777777777777%;
-  margin: 0 1.111111111111111%;
+  width: 98.33333333333333%;
+  margin: 0 0.833333333333333%;
 }
 .left,
 .alignleft {
@@ -206,6 +206,14 @@ body {
 }
 .mobile-nav-on #wrap {
   left: 280px;
+}
+@media screen and (min-width: 768px) {
+  #main {
+    display: inline;
+    float: left;
+    width: 98.33333333333333%;
+    margin: 0 0.833333333333333%;
+  }
 }
 .article-date,
 .article-category-link,
