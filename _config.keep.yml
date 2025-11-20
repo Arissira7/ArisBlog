@@ -35,7 +35,6 @@ base_info:
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
   home: /
-  archives: /archives
 
 
 # ---------------------------------------------------------------------------------------
