@@ -64,12 +64,8 @@ index_generator:
   per_page: 10
   order_by: -date
 
-# Disable archive page generation
-archive_generator:
-  per_page: 0
-  yearly: false
-  monthly: false
-  daily: false
+# Disable archive generator to prevent /archives page generation
+hexo_generator_archive: false
 
 # Category & Tag
 default_category: uncategorized
