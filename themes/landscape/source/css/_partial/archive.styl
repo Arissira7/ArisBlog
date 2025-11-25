@@ -13,9 +13,9 @@
 .archives
   column-gap: 10px
   @media mq-tablet
-    column-count: 2
+    column-count: 1
   @media mq-normal
-    column-count: 3
+    column-count: 1
 
 .archive-article
   avoid-column-break()
@@ -24,6 +24,11 @@
   @extend $block
   padding: 10px
   margin-bottom: 15px
+  aspect-ratio: 4 / 3
+  display: flex
+  flex-direction: column
+  justify-content: center
+  min-width: 300px
 
 .archive-article-title
   text-decoration: none
